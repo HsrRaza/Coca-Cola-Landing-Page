@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monument;
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav {
+    height: 140px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-prt2 {
+    display: flex;
+    /* background-color: blue; */
+    width: 55%;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+
+#nav h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+
+}
+
+#nav i {
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+#nav h5 {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#nav img {
+    height: 40px;
+
+}
+
+#line {
+    width: 70px;
+    height: 3px;
+    background-color: red;
+}
+
+#content {
+    height: calc(100% - 140px);
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+#left {
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 160px 80px;
+
+}
+
+#right {
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding:  340px 140px;
+}
+
+#center {
+    width: 26%;
+    height: 100%;
+    /* background-color: rgb(0, 81, 255); */
+    padding-top: 60px;
+}
+
+#left h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#left h1 span {
+    color: red;
+}
+
+#left p {
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 70%;
+    line-height: 24px;
+}
+
+#left button {
+    background-color: red;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    border: none;
+}
+
+#left button i {
+    margin-right: 10px;
+}
+#content img{
+    height: 100%;
+    position: absolute;
+    left: 49%;
+    z-index: 99;
+    transform: translate(-50%, 0);
+}
+
+#center-bg {
+    /* background-color: blue; */
+    height: 88%;
+    width: 100%;
+    border-top-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(https://c0.wallpaperflare.com/preview/85/135/782/coca-cola-led-signage-thumbnail.jpg);
+    background-size: 500%;
+    background-position: 50% 30%;
+    filter: blur(3px);
+}
+
+#right-elem{
+    /* background-color: red; */
+    width: 300px;
+
+}
+
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    opacity: 0.6;
+    border-bottom: 1px solid #fff;
+}
+#elem h1{
+    font-size: 22px;
+    font-weight: 600;
+
+}
+#elem1 i{
+    font-size: 24px;
+}
+#elem2 h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#elem2 p{
+   font-size: 12px;
+   width: 80%;
+   opacity: 0.6;
+
+}
